@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void) {
+int main_condition(void) {
     // // 버스를 탄다고 가정, 학생 / 일반인으로 구분 (일반인 : 20세)
     // int age = 25;
     // if (age > 20) {
