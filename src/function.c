@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 // ¼±¾ð
 void p(int num);
