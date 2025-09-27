@@ -65,7 +65,7 @@ int main_condition(void) {
     while (chance > 0) { // 1 : 참 0 : 거짓
         printf("남은 기회 %d 번\n" , chance--);
         printf("숫자를 맞쳐보세요 : (1~100) : ");
-        scanf_s("%d", &answer);
+        scanf("%d", &answer);
         if (answer > num) {
             printf("Down \n\n");
         }
