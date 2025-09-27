@@ -18,7 +18,7 @@ int mul(int num1, int num2);
 
 int divide(int num1, int num2);
 
-int main(void) {
+int main_function(void) {
     // function
     // °è»ê±â
 
