@@ -8,6 +8,6 @@ add_executable(Study_C
         src/printfScanf.c
         src/condition.c
         "src/switch case.c"
-        src/function.c
+        src/function_project.c
         src/function_project.c
 )
