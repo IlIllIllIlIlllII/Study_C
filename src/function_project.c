@@ -7,7 +7,7 @@ void showQuestion(int level, int num1, int num2); // 변경: void 반환형
 void success();
 void fail();
 
-int main() {
+int main_function_project() {
     srand(time(NULL));
     int count = 0; // 맞힌 문제 갯수
 
