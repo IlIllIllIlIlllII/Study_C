@@ -10,4 +10,6 @@ add_executable(Study_C
         "src/switch case.c"
         src/function_project.c
         src/function_project.c
+        src/array.c
+        src/string.c
 )
