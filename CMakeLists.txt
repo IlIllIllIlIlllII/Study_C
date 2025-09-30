@@ -12,4 +12,5 @@ add_executable(Study_C
         src/function_project.c
         src/array.c
         src/string.c
+        src/array_project.c
 )
