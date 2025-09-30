@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main_string() {
+int main() {
 
     // // 문자 vs 문자열
     // char c = 'A';
@@ -19,11 +19,32 @@ int main_string() {
     //     printf("%c\n", str[i]);
     // }
 
-    char kor[] = "바코드";
-    printf("%s\n", kor);
-    printf("%d\n", sizeof(kor));
-    // 영어 한글자: 1byte
-    // 한글 한글자: 2byte
+    // char kor[] = "바코드";
+    // printf("%s\n", kor);
+    // printf("%d\n", sizeof(kor));
+    // // 영어 한글자: 1byte
+    // // 한글 한글자: 2byte
+    // // char 크기 : 1byte
+
+
+    // char c_array[7] = { 'c' 'o' 'd' 'i' 'n' 'g' '\0' }
+    // char c_array[6] = { 'c', 'o', 'd', 'i', 'n', 'g' };
+    // printf("%s\n", c_array);
+
+    char c_array[10] = { 'c', 'o', 'd', 'i', 'n', 'g' };
+    // printf("%s\n", c_array);
+    // for (int i = 0; i < sizeof(c_array); i++) {
+    //     printf("%c\n", c_array[i]);
+    // }
+    // for (int i = 0; i < sizeof(c_array); i++) {
+    //     printf("%d\n", c_array[i]); // ASCII 코드 값 (NULL 문자는 0 으로 출력됨.)
+    // }
+
+    // 문자열 입력받기 : 경찰 조서 쓰기 예제
+    char name[256];
+    printf("이름을 입력하세요: ");
+    scanf("%s", name, sizeof(name));
+    printf("%s\n", name);
 
     return 0;
 }
