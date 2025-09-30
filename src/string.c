@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main_string() {
 
     // // 문자 vs 문자열
     // char c = 'A';
