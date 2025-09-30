@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_array(void) {
     // // 배열
     // int subway_1 = 30; //  지하철 1차에 30명이 타고 있습니다
     // int subway_2 = 40;
@@ -37,12 +37,12 @@ int main(void) {
     //     printf("%d\n", arr[i]);
     // }
 
-    // int arr[] = {1, 2}; // arr [2]
+    int arr[] = {1, 2}; // arr [2]
 
-    // float arr_f[5] = { 1.0f, 2.0f, 3.0f };
-    // for (int i = 0; i < 5; i++) {
-    //     printf("%.2f\n", arr_f[i]);
-    // }
+    float arr_f[5] = { 1.0f, 2.0f, 3.0f };
+    for (int i = 0; i < 5; i++) {
+        printf("%.2f\n", arr_f[i]);
+    }
 
     return 0;
 }
