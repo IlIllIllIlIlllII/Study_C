@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void) {
+int main_array_project(void) {
     srand(time(NULL));
     printf("\n\n == 아빠는 대머리 게임 == \n\n");
     int answer; // 사용자 입력값
@@ -25,12 +25,12 @@ int main(void) {
 
         // 보여줄 병 갯수를 선택
         for (int j = 0; j < cntShowBottle; j++) {
-            int randbottle = rand() % 4; // 0~3
+            int randBottle = rand() % 4; // 0~3
 
             // 아직 선택되지 않은 병이면, 선택 처리
-            if (bottle[randbottle] == 0) {
-                bottle[randbottle] = 1;
-                if (randbottle == treatment) {
+            if (bottle[randBottle] == 0) {
+                bottle[randBottle] = 1;
+                if (randBottle == treatment) {
                     isIncluded = 1;
                 }
             }
