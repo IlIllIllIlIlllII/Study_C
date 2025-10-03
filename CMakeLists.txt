@@ -13,4 +13,5 @@ add_executable(Study_C
         src/array.c
         src/string.c
         src/array_project.c
+        src/pointer.c
 )
